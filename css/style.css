@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h4 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large { font-size: 1.25rem; }
+
+.small { font-size: 0.8rem; }
+
+.display-1 { 
+  font-size: 72px; 
+  font-weight: 300;
+}
+
+.display-2 { 
+  font-size: 40px; 
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-dark {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.btn-light {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.btn-light:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f9f9f9;
+  background-clip: padding-box;
+  border: 1px solid #f9f9f9;
+  border-radius: 0.25rem;
+}
+
+/* Navbar */
+#navbar {
+  overflow: auto;
+  padding-top: 20px;
+  height: 10vh;
+}
+
+#navbar a {
+  color: #000;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+  text-transform: uppercase;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  background: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  text-align: right;
+}
+
+#showcase  h1 {
+  padding-top: 240px;
+  padding-left: 700px;
+}
+
+#showcase p {
+  padding-left: 700px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Services */
+#services {
+  padding: 90px 0;
+}
+
+#services h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.services-box {
+  float: left;
+  width: 33%;
+  padding: 40px;
+}
+
+.services-box h4 {
+  padding-top: 20px;
+}
+
+/* About */
+#about {
+  padding: 90px 0;
+  background: #f9f9f9;
+}
+
+#about h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#about p {
+  padding-bottom: 20px;
+}
+
+#about .large {
+  font-weight: 600;
+}
+
+.about-left {
+  float: left;
+  width: 50%;
+  padding-right: 90px;
+}
+
+.about-right {
+  float: right;
+  width: 50%;
+  padding-left: 90px;
+}
+
+/* Contact */
+#contact {
+  padding: 90px 0;
+}
+
+#contact h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#contact form {
+  padding-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact form .btn {
+  width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+  text-align: center;
+  padding:30px;
+}

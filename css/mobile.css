@@ -1,0 +1,96 @@
+/* Utility Classes */
+.display-1 { 
+  font-size: 50px; 
+}
+
+.display-2 { 
+  font-size: 30px; 
+}
+
+/* Navbar */
+#navbar {
+  text-align: center;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+#navbar .logo {
+  float: none;
+}
+
+#navbar ul {
+  float: none;
+  padding-left: 20px;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#showcase  h1 {
+  padding-top: 50px;
+  padding-left: 0px;
+}
+
+#showcase p {
+  padding-left: 0px;
+}
+
+/* Services */
+#services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#services h2 {
+  padding-bottom: 20px;
+}
+
+.services-box {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+
+.services-box h4 {
+  padding-top: 20px;
+}
+
+/* About */
+#about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about h2 {
+  padding-bottom: 20px;
+}
+
+#about p {
+  padding-bottom: 10px;
+}
+
+.about-left,
+.about-right {
+  float: none;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* Contact */
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  padding-bottom: 20px;
+}
+
+#contact form {
+  padding-top: 20px;
+  width: 100%;
+}
